@@ -1,0 +1,23 @@
+{
+  "name": "dictionary-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex <alex.alexeev23061991@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "yarn build&&gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
