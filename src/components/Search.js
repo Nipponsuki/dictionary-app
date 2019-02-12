@@ -37,7 +37,7 @@ const letters = [
 class Search extends Component {
   state = {
     searchText: "",
-    apiUrl: "http://api.urbandictionary.com/v0/define?term=",
+    apiUrl: "https://api.urbandictionary.com/v0/define?term=",
     words: [],
     open: false,
     letters: letters,
